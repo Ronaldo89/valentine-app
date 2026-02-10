@@ -9,7 +9,7 @@ st.set_page_config(page_title="💘 Valentine", page_icon="💘")
 WEB_APP_URL = st.secrets["WEB_APP_URL"]
 
 st.markdown("## 💌 A small question…")
-st.write("I’ve been meaning to ask you something 😊, I spoke to you about it but thhought it should be cute.")
+st.write("I’ve been meaning to ask you something 😊, I spoke to you about it but thought it would be cute to do this.")
 
 name = st.text_input("Your name")
 message = st.text_area("Optional message back to me", placeholder="Type something cute here…")
